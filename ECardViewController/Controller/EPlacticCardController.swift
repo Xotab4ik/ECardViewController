@@ -40,19 +40,19 @@ extension UIViewController: UIPopoverPresentationControllerDelegate {
 open class EPlacticCardController: UIViewController {
 
     @IBOutlet weak var cardView: UIView!
-    @IBOutlet private weak var expiresField: UITextField!
-    @IBOutlet private weak var cardHolderField: UITextField!
-    @IBOutlet private weak var cardNumberField: UITextField!
-    @IBOutlet private weak var codeField: UITextField!
-    @IBOutlet private weak var brandImageView: UIImageView!
-    @IBOutlet private weak var bankLogoImageView: UIImageView!
+    @IBOutlet weak var expiresField: UITextField!
+    @IBOutlet weak var cardHolderField: UITextField!
+    @IBOutlet weak var cardNumberField: UITextField!
+    @IBOutlet weak var codeField: UITextField!
+    @IBOutlet weak var brandImageView: UIImageView!
+    @IBOutlet weak var bankLogoImageView: UIImageView!
     
     open var isNeedCardHolder: Bool = true
     open var delegate: EPlasticCardControllerDelegate?
     
-    private var isDoneTapped: Bool = false
+    var isDoneTapped: Bool = false
     
-    private var issuer: Bank? {
+    var issuer: Bank? {
         didSet {
             if issuer?.name != oldValue?.name && issuer != nil {
                 setGradientBackground()
@@ -65,7 +65,7 @@ open class EPlacticCardController: UIViewController {
         }
     }
     
-    private var brand: Brand? {
+    var brand: Brand? {
         didSet {
             if brand != nil {
                 if issuer != nil {
@@ -90,7 +90,7 @@ open class EPlacticCardController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func setGradientBackground() {
+    func setGradientBackground() {
         guard let issuer = issuer else { return }
         
         let gradientLayer = CAGradientLayer()
