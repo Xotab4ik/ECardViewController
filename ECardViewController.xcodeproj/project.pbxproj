@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6FAC8A1F712FC100213A97 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FAC891F712FC100213A97 /* Colors.swift */; };
+		1F6FAC8C1F713E6C00213A97 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FAC8B1F713E6C00213A97 /* ImageView.swift */; };
+		1F8C33941F715633005B52A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8C33931F715633005B52A1 /* Images.xcassets */; };
+		1F8C33991F716AB6005B52A1 /* Halter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F8C33971F716AAE005B52A1 /* Halter.ttf */; };
+		1FA0B5F01F6FA904007AD3EE /* ECardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA0B5EE1F6FA904007AD3EE /* ECardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA0B5FB1F6FA99C007AD3EE /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0B5FA1F6FA99C007AD3EE /* View.xib */; };
+		1FC8EB981F70EBB4001BCD8F /* Banks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8EB971F70EBB4001BCD8F /* Banks.json */; };
+		1FC8EB9A1F70ED72001BCD8F /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8EB991F70ED72001BCD8F /* CardInfo.swift */; };
+		1FC8EB9E1F70F105001BCD8F /* JsonDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8EB9D1F70F105001BCD8F /* JsonDecode.swift */; };
+		1FC8EBC41F70F5C4001BCD8F /* EPlacticCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8EBC31F70F5C4001BCD8F /* EPlacticCardController.swift */; };
+		1FC8EBD01F710B1A001BCD8F /* Brands.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8EBCF1F710B1A001BCD8F /* Brands.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6FAC891F712FC100213A97 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1F6FAC8B1F713E6C00213A97 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		1F8C33931F715633005B52A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F8C33971F716AAE005B52A1 /* Halter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Halter.ttf; sourceTree = "<group>"; };
+		1FA0B5EB1F6FA904007AD3EE /* ECardViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECardViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA0B5EE1F6FA904007AD3EE /* ECardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECardViewController.h; sourceTree = "<group>"; };
+		1FA0B5EF1F6FA904007AD3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA0B5FA1F6FA99C007AD3EE /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		1FC8EB971F70EBB4001BCD8F /* Banks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Banks.json; sourceTree = "<group>"; };
+		1FC8EB991F70ED72001BCD8F /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		1FC8EB9D1F70F105001BCD8F /* JsonDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecode.swift; sourceTree = "<group>"; };
+		1FC8EBC31F70F5C4001BCD8F /* EPlacticCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPlacticCardController.swift; sourceTree = "<group>"; };
+		1FC8EBCF1F710B1A001BCD8F /* Brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Brands.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA0B5E71F6FA904007AD3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6FAC881F712FAC00213A97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FAC891F712FC100213A97 /* Colors.swift */,
+				1F6FAC8B1F713E6C00213A97 /* ImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F8C33951F716AA0005B52A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F8C33971F716AAE005B52A1 /* Halter.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1FA0B5E11F6FA904007AD3EE = {
+			isa = PBXGroup;
+			children = (
+				1FA0B5ED1F6FA904007AD3EE /* ECardViewController */,
+				1FA0B5EC1F6FA904007AD3EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA0B5EC1F6FA904007AD3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0B5EB1F6FA904007AD3EE /* ECardViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA0B5ED1F6FA904007AD3EE /* ECardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8EB961F70EB82001BCD8F /* Resources */,
+				1FA0B5F91F6FA98B007AD3EE /* Controller */,
+				1FA0B5F71F6FA961007AD3EE /* Model */,
+				1FA0B5F61F6FA952007AD3EE /* View */,
+				1FA0B5EE1F6FA904007AD3EE /* ECardViewController.h */,
+				1FA0B5EF1F6FA904007AD3EE /* Info.plist */,
+			);
+			path = ECardViewController;
+			sourceTree = "<group>";
+		};
+		1FA0B5F61F6FA952007AD3EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0B5FA1F6FA99C007AD3EE /* View.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FA0B5F71F6FA961007AD3EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8EB991F70ED72001BCD8F /* CardInfo.swift */,
+				1FC8EB9D1F70F105001BCD8F /* JsonDecode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FA0B5F91F6FA98B007AD3EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8EBC31F70F5C4001BCD8F /* EPlacticCardController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FC8EB961F70EB82001BCD8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F8C33951F716AA0005B52A1 /* Fonts */,
+				1F6FAC881F712FAC00213A97 /* Extensions */,
+				1FC8EB971F70EBB4001BCD8F /* Banks.json */,
+				1FC8EBCF1F710B1A001BCD8F /* Brands.json */,
+				1F8C33931F715633005B52A1 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FA0B5E81F6FA904007AD3EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA0B5F01F6FA904007AD3EE /* ECardViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FA0B5EA1F6FA904007AD3EE /* ECardViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA0B5F31F6FA904007AD3EE /* Build configuration list for PBXNativeTarget "ECardViewController" */;
+			buildPhases = (
+				1FA0B5E61F6FA904007AD3EE /* Sources */,
+				1FA0B5E71F6FA904007AD3EE /* Frameworks */,
+				1FA0B5E81F6FA904007AD3EE /* Headers */,
+				1FA0B5E91F6FA904007AD3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECardViewController;
+			productName = ECardViewController;
+			productReference = 1FA0B5EB1F6FA904007AD3EE /* ECardViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA0B5E21F6FA904007AD3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alexey Milakhin";
+				TargetAttributes = {
+					1FA0B5EA1F6FA904007AD3EE = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FA0B5E51F6FA904007AD3EE /* Build configuration list for PBXProject "ECardViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FA0B5E11F6FA904007AD3EE;
+			productRefGroup = 1FA0B5EC1F6FA904007AD3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA0B5EA1F6FA904007AD3EE /* ECardViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA0B5E91F6FA904007AD3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8C33991F716AB6005B52A1 /* Halter.ttf in Resources */,
+				1F8C33941F715633005B52A1 /* Images.xcassets in Resources */,
+				1FA0B5FB1F6FA99C007AD3EE /* View.xib in Resources */,
+				1FC8EBD01F710B1A001BCD8F /* Brands.json in Resources */,
+				1FC8EB981F70EBB4001BCD8F /* Banks.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA0B5E61F6FA904007AD3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6FAC8C1F713E6C00213A97 /* ImageView.swift in Sources */,
+				1FC8EB9A1F70ED72001BCD8F /* CardInfo.swift in Sources */,
+				1F6FAC8A1F712FC100213A97 /* Colors.swift in Sources */,
+				1FC8EB9E1F70F105001BCD8F /* JsonDecode.swift in Sources */,
+				1FC8EBC41F70F5C4001BCD8F /* EPlacticCardController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FA0B5F11F6FA904007AD3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FA0B5F21F6FA904007AD3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FA0B5F41F6FA904007AD3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ECardViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyself.ECardViewController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA0B5F51F6FA904007AD3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ECardViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyself.ECardViewController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA0B5E51F6FA904007AD3EE /* Build configuration list for PBXProject "ECardViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0B5F11F6FA904007AD3EE /* Debug */,
+				1FA0B5F21F6FA904007AD3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA0B5F31F6FA904007AD3EE /* Build configuration list for PBXNativeTarget "ECardViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0B5F41F6FA904007AD3EE /* Debug */,
+				1FA0B5F51F6FA904007AD3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA0B5E21F6FA904007AD3EE /* Project object */;
+}
